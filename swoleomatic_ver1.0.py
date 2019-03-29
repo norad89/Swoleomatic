@@ -23,7 +23,7 @@ while True:
     except:
         print("per favore, inserisci un valore numerico")
 maxrep_a = (float(peso_a) / (1.0278 - (0.0278 * float(reps_a))))
-print ("il tuo massimale di", lift_a, "è", round(maxrep_a,1),"{:s}s".format(unit))
+print ("il tuo massimale di", lift_a, "Ã¨", round(maxrep_a,1),"{:s}s".format(unit))
 
 lift_b = str(input ('\ninserisci il secondo esercizio\n'))
 while True:
@@ -41,4 +41,4 @@ while True:
     except:
         print("per favore, inserisci un valore numerico")
 maxrep_b = (float(peso_b) / (1.0278 - (0.0278 * float(reps_b))))
-print ("il tuo massimale di", lift_b, "è", round(maxrep_b,1),"{:s}s".format(unit))
+print ("il tuo massimale di", lift_b, "Ã¨", round(maxrep_b,1),"{:s}s".format(unit))
